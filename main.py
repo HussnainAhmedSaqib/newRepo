@@ -4,13 +4,22 @@
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+def mul(a, b):
+    return a * b
+
+
+def sub(a, b):
+    return a - b
+
+
+def add(a, b):
+    return a + b
 
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
+    print(mul(1, 1))
+    print(sub(1, 1))
+    print(add(1, 2))
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
