@@ -16,10 +16,15 @@ def add(a, b):
     return a + b
 
 
+def divide(a, b):
+    return a / b
+
+
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print(mul(1, 1))
     print(sub(1, 1))
     print(add(1, 2))
+    print(divide(4, 2))
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
