@@ -8,8 +8,13 @@ def mul(a, b):
     return a * b
 
 
+def sub(a, b):
+    return a - b
+
+
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    mul(1, 1)
+    print(mul(1, 1))
+    print(sub(1, 1))
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
